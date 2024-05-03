@@ -12,7 +12,7 @@ let asnwer = await inquirer.prompt([
         name: "secondNumber",
     },
     {
-        message: "Select one of the fnollowing operators to perform the operation",
+        message: "Select one of the following operators to perform the operation",
         type: "list",
         name: "operator",
         choices: [
